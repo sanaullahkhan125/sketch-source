@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+a {
+  text-decoration: none;
+}
+p {
+  color: #3c3c3c;
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad {
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+}
+a,
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  overflow-x: hidden;
+  font-family: Cabin !important;
+}
+/* Scroll Bar Open */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+  background: #ec7f00;
+  border-radius: 10px;
+}
+/* Scroll Bar Close */
+
+/* >>>>>>>>>>>>>>>> Main Page <<<<<<<<<<<<<< */
+
+/* Navbar Open */
+
+.navbar .solid-btn {
+  margin-left: 0.6em;
+}
+.nav-text .nav-link {
+  margin: 0 0.87em;
+  color: #ec6f00 !important;
+}
+.navbar .btn {
+  width: 170px;
+}
+.btn {
+  color: #fff !important;
+}
+.outline-btn {
+  color: #ec6f00 !important;
+  border-color: #ec6f00;
+  font-weight: 600;
+}
+.outline-btn:hover {
+  background-color: #ec6f00;
+  color: #fff !important;
+  border-color: #ec6f00;
+}
+.solid-btn {
+  background-color: #ec6f00;
+  border-color: #ec6f00;
+}
+.solid-btn:hover {
+  background-color: #ec7f00;
+  border-color: #ec6f00;
+}
+
+/* Navbar Close */
+
+/* Header Open */
+
+#header {
+  background-image: url(./img/Main\ Section\ image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#header .container {
+  height: 60vh;
+  margin-bottom: 3.1em;
+}
+#header .container-image {
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+}
+.container-image .section-child .heading {
+  color: #fff;
+  margin: 0px auto 2.5em;
+  font-weight: 600;
+}
+.section-child .input-section {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+.input-section .input {
+  padding: 0.5em;
+  width: 100%;
+  color: gray;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.input-section .Sports {
+  max-width: 300px;
+}
+.input-section .State {
+  max-width: 150px;
+  margin: 0 1.56em;
+}
+.section-child .input-section .btn {
+  width: 100%;
+  max-width: 130px;
+}
+/* Header Close */
+
+/* Main Section Open */
+
+#main-section {
+  text-align: center;
+}
+#main-section .image-section {
+  margin-bottom: 2.7em;
+}
+.basketball-img {
+  width: 100%;
+  height: 100%;
+  max-height: 120px;
+  border-radius: 5px;
+  margin: 0.9em 0;
+  filter: brightness(0.7);
+  position: relative;
+  transition: 500ms all ease-in-out;
+  cursor: pointer;
+}
+.available .basketball-img:hover {
+  filter: brightness(0.9);
+}
+.coming-soon .basketball-img {
+  opacity: 0.5;
+}
+.coming-soon .basketball-img:hover {
+  filter: brightness(0.2);
+}
+.img-para {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 145px;
+  font-size: 1.06em;
+  cursor: pointer;
+}
+.coming-soon .img-para {
+  position: absolute;
+  top: 55%;
+}
+.available .img-para {
+  position: absolute;
+  top: 70%;
+}
+.about-page {
+  border: 1px solid #f5f5f5;
+  padding: 2.5em 0;
+}
+.about-page .btn {
+  width: 100%;
+  max-width: 280px;
+  padding: 0.3em 0;
+}
+.about-page .btn .fas {
+  margin-right: 0.6em;
+}
+.about-page .para {
+  width: 100%;
+  margin: auto;
+}
+.about-page .first-para {
+  max-width: 420px;
+  padding: 0.12em 0;
+}
+.about-page .second-para {
+  max-width: 450px;
+  padding: 1.25em 0;
+}
+.about-page .default-para {
+  max-width: 630px;
+  padding-bottom: 0.93em;
+}
+
+/* Main Section Close */
+
+/* Parent Section Open */
+
+#parent-section {
+  text-align: center;
+}
+#parent-section .camps {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin: 2.7em auto;
+}
+.camps .child {
+  display: inline-flex;
+  align-items: baseline;
+}
+.camps .fad {
+  margin: 0 0.8em;
+  color: #ec6f00;
+}
+.camps .para {
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.87em;
+}
+.camps .fal {
+  font-size: 3em;
+  border: 3px solid #ec6f00;
+  border-radius: 50%;
+  padding: 0.45em;
+  color: #ec6f00;
+}
+.camps .heading {
+  color: #ec6f00;
+  margin: 1.12em 0;
+}
+.partners {
+  background-color: #f5f5f5;
+  padding: 2em 0;
+}
+.partners .heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.partners .Partner-img {
+  width: 125px;
+}
+.partners .para {
+  font-size: 1.06em;
+}
+.partners .partner2 {
+  margin: 0 2.8em;
+}
+/* Parent Section Clsoe */
+
+/* Footer Open */
+
+#main-footer {
+  background-color: #3c3c3c;
+  padding: 2em 0;
+}
+#main-footer .footer-child .warn-para,
+.footer-child .text-para {
+  font-size: 0.87em;
+}
+.footer-child .text-para,
+.footer-child .fal {
+  color: darkgray;
+}
+.footer-child .fal {
+  margin-right: 0.6em;
+  font-size: 0.87em;
+}
+.warn-para {
+  color: #ffbb27;
+}
+.footer-child .text {
+  font-size: 0.81em !important;
+}
+.footer-child .heading {
+  color: #fff;
+}
+.footer {
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  background-color: #2d2d2d;
+}
+.footer .para {
+  color: #fff;
+  margin-right: 1em;
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+.footer .fab {
+  margin: 0 0.5em;
+  vertical-align: top;
+}
+
+/* Footer Close */
+
+/* MEDIA QURIES Open */
+@media only screen and (min-width: 768px) {
+  .camps .Athless {
+    width: 50%;
+    margin-right: 3.7rem;
+  }
+  .camps .Sports {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #parent-section .camps {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .navbar .navbar-nav .btn {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+  #parent-section .camps {
+    display: block;
+  }
+  #main-footer {
+    text-align: center;
+  }
+  #main-footer .col-md-3 {
+    margin: 1em 0;
+  }
+}
+/* MEDIA QURIES Close */
+
+/* >>>>>>>>>>> LogIn Page <<<<<<<<<<<< */
+
+.login-head {
+  height: 60vh;
+  position: relative;
+}
+.login-card {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 0 0 2px #808080;
+  border-radius: 5px;
+  padding: 1.5em 1.5em 0;
+  width: 30%;
+}
+.login-card .inputs .reset-link {
+  color: #ec6f00;
+}
+.login-card .heading,
+.login-card .inputs .reset-link {
+  text-align: center;
+}
+.login-card .heading {
+  font-weight: bold;
+  font-size: 2em;
+}
+.login-card .input-section {
+  padding: 2em 0;
+  width: 80%;
+  margin: auto;
+}
+.input-section .inputs {
+  margin: 1.2em 0;
+}
+.input-section .solid-btn {
+  width: 100%;
+  padding: 0.4em 0;
+}
+.account-settings {
+  width: 27%;
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-40%);
+}
+.account-settings .SignUp {
+  width: 80%;
+}
+.SignUp .btn {
+  width: 100%;
+  margin: 0.4em 0;
+}
+/* MEDIA QURIES Open */
+
+@media only screen and (max-width: 768px) {
+  .login-card {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .login-card {
+    width: 100%;
+  }
+}
+
+/* MEDIA QURIES Close */
+
+/* >>>>>>>>>>>>>>> Athlete SignUp Section <<<<<<<<<<<<< */
+.SignUp-Section {
+  border-top: 1px solid #e4e4e4;
+}
+.SignUp-Section .signup-header {
+  width: 60%;
+  margin: auto;
+}
+.signup-header .heading {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0.7em auto;
+}
+.signup-header .progress-bar {
+  width: 25%;
+}
+.btn-active {
+  background-color: #ec6f00;
+  color: #fff !important;
+  border-color: #ec6f00;
+}
+.signup-header .buttons-group {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  text-align: center;
+}
+.signup-header .buttons-group .btn {
+  width: 100%;
+  max-width: 155px;
+  border-radius: 25%;
+  padding: 0.5em 0;
+  margin: 0.5em;
+  font-size: 1.1em;
+}
+.signup-header .buttons-group .signup-btn {
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+  font-weight: bolder;
+  color: #b6b4b3 !important;
+}
+.form-section {
+  width: 100%;
+  max-width: 25%;
+  margin: auto;
+}
+.form-section .signUP-inputs {
+  margin-bottom: 1.3em;
+}
+.form-section .signUP-inputs .form-code {
+  max-width: 180px;
+}
+/* MEDIA QURIES Open */
+@media only screen and (max-width: 768px) {
+  .form-section {
+    max-width: 40%;
+  }
+}
+/* MEDIA QURIES Close */
